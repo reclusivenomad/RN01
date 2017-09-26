@@ -7,12 +7,12 @@ $(window).on('scroll', function () {
 	// Step 2: Write Rest of JS here
 	if (distanceScrolled > 340) {
 		$('.main-nav').addClass('scrolled');
-		$('.slideshow-container').css('padding-top','82px');
-		$('.slideshow-container').css('z-index','1');
+		$('.homepage').css('padding-top','88px');
+		// $('.slideshow-container').css('z-index','1');
 		
 	} else {
 		$('.main-nav').removeClass('scrolled');
-		$('.slideshow-container').css('padding-top','0px');
+		$('.homepage').css('padding-top','0px');
 
 
 	}
